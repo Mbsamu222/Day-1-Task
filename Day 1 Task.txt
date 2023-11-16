@@ -1,0 +1,28 @@
+﻿1. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+                            HTTP/1.1
+
+                          HTTP/2
+
+1. It works on the textual format.
+1. It works on the binary protocol 
+2. There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+2. It allows multiplexing so one TCP connection is required for multiple requests.
+3. It uses requests resource for use getting multiple pages
+3. It uses PUSH frame by server that collects all multiple pages 
+4. It compresses data by itself.
+4. It uses HPACK for data compression.
+5. HTTP is a top-level application protocol that exchanges information between a client computer and a local or remote web server
+5. From a technical point of view, one of the most significant features that distinguishes HTTP/1.1
+6. The first response that a client receives on an HTTP GET request is often not the fully rendered page
+6. Stream prioritization not only solves the possible issue of requests competing for the same resource
+7. In HTTP/1.1, flow control relies on the underlying TCP connection
+7. HTTP/2 multiplexes streams of data within a single TCP connection.
+8. In HTTP/1.1, if the developer knows in advance which additional resources the client machine will need to render
+8. HTTP/2 enables multiple concurrent responses to a client’s initial GET , a server can send a resource to a client along with the requested HTML page
+9. Programs like have long been used to compress the data sent in HTTP messages, especially to decrease the size of CSS and JavaScript files.
+9. One of the themes that has come up again and again in HTTP/2 is its ability to use the binary framing layer to exhibit greater control over finer detail.
+10.  	1	The client (browser) has to send a request to the server using the method (GET/POST).
+
+10. HTTP/2 was released at Google as the significant improvement of its predecessor.
+
